@@ -54,7 +54,7 @@ Project1/
 ```csharp
 Console.WriteLine("Въведи задача: ");
 var task = Console.ReadLine();
-tasks.Add(task);
+tasks.Add(task); ```
 
 
 ---
