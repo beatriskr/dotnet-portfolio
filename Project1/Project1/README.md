@@ -39,18 +39,15 @@
 
 ## 🧱 Файлова структура
 
+```text
 Project1/
 │
-├── Program.cs # Основна логика на приложението
-├── Project1.csproj # .NET конфигурационен файл
-├── .gitkeep # Празна placeholder файл за папката
-└── README.md # Този документ
+├── Program.cs          # Основна логика на приложението
+├── Project1.csproj     # .NET конфигурационен файл
+├── .gitkeep            # Празна placeholder файл за папката
+└── README.md           # Този документ
+```
 
-yaml
-Copy
-Edit
-
----
 
 ## 🧪 Пример за използване (код)
 
