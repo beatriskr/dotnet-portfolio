@@ -14,7 +14,7 @@
 ```bash
 git clone https://github.com/beatriskr/dotnet-portfolio.git
 cd dotnet-portfolio/Project1
-
+dotnet run
 
 ## 📸 Скрийншот
 
@@ -31,5 +31,3 @@ cd dotnet-portfolio/Project1
 Console.WriteLine("Въведи задача: ");
 var task = Console.ReadLine();
 tasks.Add(task);
-
-dotnet run
