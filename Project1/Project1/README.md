@@ -14,6 +14,8 @@
 ```bash
 git clone https://github.com/beatriskr/dotnet-portfolio.git
 cd dotnet-portfolio/Project1
+
+
 ## 📸 Скрийншот
 
 ![Примерен изглед](./screenshot.png)
