@@ -14,4 +14,20 @@
 ```bash
 git clone https://github.com/beatriskr/dotnet-portfolio.git
 cd dotnet-portfolio/Project1
+## 📸 Скрийншот
+
+![Примерен изглед](./screenshot.png)
+
+## 🧱 Файлове
+
+- `Program.cs` – основен файл с логиката на ToDo списъка
+- `Project1.csproj` – .NET конфигурация
+
+## 🧪 Пример за код
+
+```csharp
+Console.WriteLine("Въведи задача: ");
+var task = Console.ReadLine();
+tasks.Add(task);
+
 dotnet run
