@@ -13,11 +13,11 @@ title: Беатрис Крумова - .NET и дигитално портфол
 
 ## 🛠 Технически умения
 
-- Езици: `C#`, `SQL`, `HTML`, `CSS`
-- Технологии: `ASP.NET Core`, `Entity Framework`, `Razor Pages`
-- Бази данни: `SQL Server`
-- Инструменти: `Visual Studio`, `Git`, `GitHub`, `Postman`
-- Практики: `SOLID`, `Clean Code`, `RESTful APIs`
+- 🟢 **Езици:** C#, SQL, HTML, CSS  
+- 🟢 **Технологии:** ASP.NET Core, Entity Framework, Razor Pages  
+- 🟢 **Бази данни:** SQL Server  
+- 🟢 **Инструменти:** Git, GitHub, Postman, Visual Studio  
+- 🟢 **Добри практики:** SOLID, Clean Code, REST APIs
 
 ---
 
