@@ -34,3 +34,8 @@ $$
 git clone https://github.com/[твоят-профил]/dotnet-portfolio.git
 cd dotnet-portfolio/Project4
 dotnet run
+
+```
+
+## 📸 Скриншот от работеща програма  
+![Примерен изглед](./screenshot.png)
