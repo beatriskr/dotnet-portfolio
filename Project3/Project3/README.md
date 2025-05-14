@@ -66,6 +66,31 @@ KANBAN BOARD : kanban_beti   (kanban_beti.json)
 - Данните се съхраняват в .json файл
 - Интерфейсът наподобява визуално таблична Kanban дъска
 
+  ## 🔄 Диаграма на потока (Mermaid)
+
+```mermaid
+flowchart TD
+    Start([Стартиране на програмата])
+    ChooseOption{Нова или съществуваща дъска?}
+    NewBoard[Създаване на нова дъска]
+    LoadBoard[Зареждане от JSON]
+    ShowBoard[Показване на Kanban дъската]
+    KeyPress{Клавиш натиснат?}
+    AddTask[[F2: Добавяне на задача]]
+    MoveToProgress[[F5: Към In Progress]]
+    MoveToDone[[F6: Към Done]]
+    SaveExit[[F9: Запис и изход]]
+
+    Start --> ChooseOption
+    ChooseOption -->|Нова| NewBoard --> ShowBoard
+    ChooseOption -->|Съществуваща| LoadBoard --> ShowBoard
+    ShowBoard --> KeyPress
+    KeyPress --> AddTask --> ShowBoard
+    KeyPress --> MoveToProgress --> ShowBoard
+    KeyPress --> MoveToDone --> ShowBoard
+    KeyPress --> SaveExit
+
+
 ## 👩‍💻 Автор  
 Разработено от **Беатрис Крумова** като част от учебно .NET портфолио.
 
