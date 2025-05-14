@@ -17,6 +17,7 @@
 git clone https://github.com/[твоят-профил]/dotnet-portfolio.git
 cd dotnet-portfolio/Project2/Project2
 dotnet run
+```
 
 📁 Структура на проекта
 kotlin
