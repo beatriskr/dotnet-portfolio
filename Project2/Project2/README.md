@@ -17,3 +17,10 @@
 git clone https://github.com/[твоят-профил]/dotnet-portfolio.git
 cd dotnet-portfolio/Project2/Project2
 dotnet run
+
+Project2/
+├── MyTuple.cs         // Клас за представяне на двойките
+├── Program.cs         // Главен файл с логиката
+├── data.txt           // Входен файл с n-торки
+├── Project2.csproj    // Файл с конфигурация на проекта
+└── README.md          // Описание на проекта
