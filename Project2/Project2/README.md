@@ -67,31 +67,6 @@ Press any key to exit...
 - Изходът се отпечатва в конзолата
 
 
-## 🔄 Диаграма на потока (Mermaid)
-
-```mermaid
-flowchart TD
-    Start([Стартиране на програмата])
-    ChooseOption{Нова или съществуваща дъска?}
-    NewBoard[Създаване на нова дъска]
-    LoadBoard[Зареждане от JSON]
-    ShowBoard[Показване на Kanban дъската]
-    KeyPress{Клавиш натиснат?}
-    AddTask[[F2: Добавяне на задача]]
-    MoveToProgress[[F5: В "In Progress"]]
-    MoveToDone[[F6: В "Done"]]
-    SaveExit[[F9: Запис и изход]]
-
-    Start --> ChooseOption
-    ChooseOption -->|Нова| NewBoard --> ShowBoard
-    ChooseOption -->|Съществуваща| LoadBoard --> ShowBoard
-    ShowBoard --> KeyPress
-    KeyPress --> AddTask --> ShowBoard
-    KeyPress --> MoveToProgress --> ShowBoard
-    KeyPress --> MoveToDone --> ShowBoard
-    KeyPress --> SaveExit
-
-
 ## 👩‍💻 Автор  
 Разработено от **Беатрис Крумова** като част от учебно .NET портфолио.
 
