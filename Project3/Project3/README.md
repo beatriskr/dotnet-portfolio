@@ -40,3 +40,15 @@ Project3/
 ├── ProjXY.json         // Примерен файл със запазена дъска
 ├── screenshot.png      // Скрийншот на дъската (визуализация)
 └── README.md           // Този файл
+
+```
+## ✅ Примерна сесия в терминала
+```
+KANBAN BOARD : kanban_beti   (kanban_beti.json)
+
+| To Do (2/10)       | In Progress (1/10) | Done (1/10)       |
+-----------------------------------------------------------------------
+| 1. SEO             | 1. Learn           | 1. Research       |
+| 2. Testing         |                    |                   |
+-----------------------------------------------------------------------
+[F1] Task details   [F2] Add task   [F5] Set in progress   [F6] Set as done   [F9] End
