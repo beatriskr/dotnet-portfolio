@@ -90,6 +90,8 @@ flowchart TD
     KeyPress --> MoveToDone --> ShowBoard
     KeyPress --> SaveExit
 
+```
+
 
 ## 👩‍💻 Автор  
 Разработено от **Беатрис Крумова** като част от учебно .NET портфолио.
